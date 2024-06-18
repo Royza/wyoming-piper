@@ -103,7 +103,7 @@ async def main() -> None:
             name=voice_name,
             description=get_description(voice_info),
             attribution=Attribution(
-                name="rhasspy", url="https://github.com/rhasspy/piper"
+                name="rhasspy", url="https://github.com/Royza/rbpiper"
             ),
             installed=True,
             version=None,
@@ -172,10 +172,10 @@ async def main() -> None:
     wyoming_info = Info(
         tts=[
             TtsProgram(
-                name="piper",
+                name="rbpiper",
                 description="A fast, local, neural text to speech engine",
                 attribution=Attribution(
-                    name="rhasspy", url="https://github.com/rhasspy/piper"
+                    name="Royza", url="https://github.com/Royza/rbpiper"
                 ),
                 installed=True,
                 voices=sorted(voices, key=lambda v: v.name),
