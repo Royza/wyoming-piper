@@ -1,4 +1,36 @@
 {
+    "en_US-buffy": {
+        "key": "en_US-buffy",
+        "name": "Buffy",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+    },
+    "quality": "medium",
+    "num_speakers": 1,
+    "speaker_id_map": {},
+    "files": {
+        "en/en_US/buffy/medium/en_US-buffy.onnx": {
+            "size_bytes": 63511038,
+            "md5_digest": "B63EF904C69A51EEA75D3DC7BE834E20"
+        },
+        "en/en_US/buffy/medium/en_US-buffy.onnx.json": {
+            "size_bytes": 7087,
+            "md5_digest": "A1D35046177528893096732BC681A49C"
+        },
+        "en/en_US/buffy/medium/MODEL_CARD": {
+            "size_bytes": 309,
+            "md5_digest": "b116c3cbdebac99ade9af03807cb9301"
+        }
+    },
+    "aliases": [
+        "en-us-buffy"
+    ]
+},    
     "ar_JO-kareem-low": {
         "key": "ar_JO-kareem-low",
         "name": "kareem",
