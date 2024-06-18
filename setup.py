@@ -25,7 +25,7 @@ setup(
     name=module_name,
     version=version,
     description="Wyoming Server for Piper",
-    url="https://github.com/rhasspy/wyoming-piper",
+    url="https://github.com/Royza/rbpiper",
     author="Michael Hansen",
     author_email="mike@rhasspy.org",
     license="MIT",
