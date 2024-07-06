@@ -175,7 +175,7 @@ async def main() -> None:
                 name="rbpiper",
                 description="A fast, local, neural text to speech engine",
                 attribution=Attribution(
-                    name="Royza", url="https://github.com/Royza/rbpiper"
+                    name="Royza", url="https://github.com/Royza/piper"
                 ),
                 installed=True,
                 voices=sorted(voices, key=lambda v: v.name),
