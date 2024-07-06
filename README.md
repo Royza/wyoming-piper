@@ -26,7 +26,7 @@ curl -L -s "https://github.com/royza/piper/releases/download/v1.2.0/piper_amd64.
 Run a server that anyone can connect to:
 
 ``` sh
-script/run --piper '/usr/share/piper/piper' --voice en_US-lessac-medium --uri 'tcp://0.0.0.0:10200' --data-dir /data --download-dir /data 
+script/run --piper '/usr/share/piper/piper' --voice en_GB-shadowheart-medium --uri 'tcp://0.0.0.0:10200' --data-dir /data --download-dir /data 
 ```
 
 ## Docker Image
