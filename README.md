@@ -1,6 +1,6 @@
 # Wyoming Piper
 
-[Wyoming protocol](https://github.com/Royza/wypiper) server for the [Piper](https://github.com/Royza/rbpiper/) text to speech system.
+[Wyoming protocol](https://github.com/royza/wyoming) server for the [Piper](https://github.com/royza/piper/) text to speech system.
 
 ## Home Assistant Add-on
 
@@ -13,14 +13,14 @@
 Clone the repository and set up Python virtual environment:
 
 ``` sh
-git clone https://github.com/Royza/wypiper.git
+git clone https://github.com/royza/wyoming-piper.git
 cd wyoming-piper
 script/setup
 ```
 
 Install Piper
 ```sh
-curl -L -s "https://github.com/rhasspy/piper/releases/download/v1.2.0/piper_amd64.tar.gz" | tar -zxvf - -C /usr/share
+curl -L -s "https://github.com/royza/piper/releases/download/v1.2.0/piper_amd64.tar.gz" | tar -zxvf - -C /usr/share
 ```
 
 Run a server that anyone can connect to:
@@ -32,8 +32,8 @@ script/run --piper '/usr/share/piper/piper' --voice en_US-lessac-medium --uri 't
 ## Docker Image
 
 ``` sh
-docker run -it -p 10200:10200 -v /path/to/local/data:/data Royza/wypiper \
+docker run -it -p 10200:10200 -v /path/to/local/data:/data royza/wyoming-piper \
     --voice en_US-lessac-medium
 ```
 
-[Source](https://github.com/Royza/wypiper)
+[Source](https://github.com/royza/wyoming-addons/tree/master/piper)
