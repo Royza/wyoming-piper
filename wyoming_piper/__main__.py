@@ -103,7 +103,7 @@ async def main() -> None:
             name=voice_name,
             description=get_description(voice_info),
             attribution=Attribution(
-                name="rhasspy", url="https://github.com/Royza/rbpiper"
+                name="rhasspy", url="https://github.com/Royza/piper"
             ),
             installed=True,
             version=None,
