@@ -20,7 +20,7 @@ script/setup
 
 Install Piper
 ```sh
-curl -L -s "https://github.com/royza/piper/releases/download/v1.2.0/piper_amd64.tar.gz" | tar -zxvf - -C /usr/share
+curl -L -s "https://github.com/rhasspy/piper/releases/download/v1.2.0/piper_amd64.tar.gz" | tar -zxvf - -C /usr/share
 ```
 
 Run a server that anyone can connect to:
@@ -33,7 +33,7 @@ script/run --piper '/usr/share/piper/piper' --voice en_GB-shadowheart-medium --u
 
 ``` sh
 docker run -it -p 10200:10200 -v /path/to/local/data:/data royza/wyoming-piper \
-    --voice en_US-lessac-medium
+    --voice en_GB-shadowheart-medium
 ```
 
 [Source](https://github.com/royza/wyoming-addons/tree/master/piper)
