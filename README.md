@@ -6,7 +6,7 @@
 
 [![Show add-on](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_piper)
 
-[Source](https://github.com/home-assistant/addons/tree/master/piper)
+[Source](https://github.com/royza/piper)
 
 ## Local Install
 
